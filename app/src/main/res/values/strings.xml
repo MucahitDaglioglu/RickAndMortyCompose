@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rick And Morty</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="no_favorite">No Favorite</string>
+
+    <string name="character_detail">Character Detail</string>
+
+    <string name="gender">Gender: </string>
+    <string name="status">Status: </string>
+    <string name="location">Location: </string>
+    <string name="species">Species: </string>
+    <string name="origin">Origin: </string>
+
+</resources>
