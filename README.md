@@ -1,7 +1,7 @@
 # RickAndMortyCompose
 RickAndMorty is an android application written with [Jetpack Compose](https://developer.android.com/jetpack/compose/documentation) and MVVM architecture.
 
-| <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/home.png" width="200"> | <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/detail.png" width="200"> | <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/addfavorite.png" width="200"> | <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/favorites.png" width="200">
+<img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/home.png" width="200"> <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/detail.png" width="200"> <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/addfavorite.png" width="200"> <img src="https://raw.githubusercontent.com/MucahitDaglioglu/RickAndMortyCompose/master/art/favorites.png" width="200">
 
 
 ## Libraries
