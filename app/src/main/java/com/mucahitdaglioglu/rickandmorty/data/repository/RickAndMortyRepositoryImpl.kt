@@ -4,7 +4,6 @@ import com.mucahitdaglioglu.rickandmorty.data.local.CharacterDetail
 import com.mucahitdaglioglu.rickandmorty.data.local.RickAndMortyDao
 import com.mucahitdaglioglu.rickandmorty.data.model.Characters
 import com.mucahitdaglioglu.rickandmorty.data.network.RickAndMortyService
-import com.mucahitdaglioglu.rickandmorty.utils.Resource
 import retrofit2.Response
 import javax.inject.Inject
 
@@ -12,9 +11,8 @@ class RickAndMortyRepositoryImpl @Inject constructor(
     private val apiService: RickAndMortyService,
     private val rickAndMortyDao: RickAndMortyDao ) : RickAndMortyRepository {
 
-    override suspend fun getAllCharacters(page: Int?): Resource<Characters> {
-        //return apiService.getAllCharacters(page)
-        return Resource.Success(apiService.getAllCharacters(page))
+    override suspend fun getAllCharacters(page: Int?): Response<Characters> {
+        return apiService.getAllCharacters(page)
     }
 
     override suspend fun allFavoriteCharacters(): List<CharacterDetail> {

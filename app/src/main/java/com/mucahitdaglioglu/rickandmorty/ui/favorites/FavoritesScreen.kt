@@ -92,9 +92,7 @@ fun FavoritesList(list: List<CharacterDetail>, sharedViewModel: SharedViewModel,
                                 )
 
                                 navController.navigate(Screen.DetailScreen.route) {
-                                    // Avoid multiple copies of the same destination when re-selecting the same item
                                     launchSingleTop = true
-                                    // Restore state when re-selecting a previously selected item
                                     restoreState = true
                                 }
 

@@ -16,8 +16,7 @@ class CharacterPagingSource(private val repository: RickAndMortyRepository) : Pa
             val response = repository.getAllCharacters(nextPage)
 
 
-            //val data = response.body()?.results ?: emptyList()
-            val data = response.data?.results ?: emptyList()
+            val data = response.body()?.results ?: emptyList()
 
             LoadResult.Page(
                 data = data,
