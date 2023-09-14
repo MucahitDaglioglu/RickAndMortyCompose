@@ -32,7 +32,7 @@ import com.mucahitdaglioglu.rickandmorty.data.model.Location
 import com.mucahitdaglioglu.rickandmorty.data.model.Origin
 import com.mucahitdaglioglu.rickandmorty.data.model.Result
 import com.mucahitdaglioglu.rickandmorty.ui.SharedViewModel
-import com.mucahitdaglioglu.rickandmorty.ui.home.CardForImageBackground
+import com.mucahitdaglioglu.rickandmorty.ui.home.CardItem
 import com.mucahitdaglioglu.rickandmorty.ui.navigation.Screen
 
 @Composable
@@ -69,7 +69,7 @@ fun FavoritesList(list: List<CharacterDetail>, sharedViewModel: SharedViewModel,
             LazyVerticalGrid(columns = GridCells.Fixed(2)) {
                 items(list.size) { index ->
 
-                    CardForImageBackground(
+                    CardItem(
                         modifier = Modifier
                             .height(300.dp)
                             .padding(4.dp)

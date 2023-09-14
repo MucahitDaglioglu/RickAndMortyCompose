@@ -62,7 +62,7 @@ fun HomeScreen(navController: NavController, sharedViewModel: SharedViewModel) {
         LazyVerticalGrid(columns = GridCells.Fixed(2)) {
             items(items.itemCount) { index ->
 
-                CardForImageBackground(
+                CardItem(
                     modifier = Modifier
                         .height(300.dp)
                         .padding(4.dp)
@@ -103,7 +103,7 @@ fun HomeScreen(navController: NavController, sharedViewModel: SharedViewModel) {
 
 @OptIn(ExperimentalGlideComposeApi::class)
 @Composable
-fun CardForImageBackground(modifier: Modifier, image: String?, name: String?) {
+fun CardItem(modifier: Modifier, image: String?, name: String?) {
     Card(
         modifier = modifier,
         elevation = CardDefaults.cardElevation(4.dp),
